@@ -1,0 +1,59 @@
+#sl-carousel{
+	position: relative;
+	top: -70px;
+	z-index:8;
+	max-width: 3800px;
+	margin: 0 auto;
+}
+.car-item{
+	position: relative;
+	height:800px;
+	img{
+		width: 100%;
+		height: 100%;
+
+	} 
+}
+.button-gone{
+	position: absolute;
+	top: -100px;
+	z-index: -100;
+}
+.s-dots{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	position: relative;
+	top: -100px;
+		li{
+			margin-right: 20px;
+			button{
+				display: block;
+				width: 1em;
+				height: 1em;
+				padding: 0;
+				border: 2px solid #fff;
+				border-radius: 50%;
+				background-color: #505050;
+				text-indent: -100000px;
+				}
+				&:hover{
+					cursor: pointer;
+				}
+			}
+			li.slick-active button{
+				background-color: #191919;
+			}
+}
+.skew-carousel{
+	z-index: 9;
+	top:-155px;
+	position: relative;
+	background-color: #fff;
+	height: 150px;
+	-webkit-transform: skew(0deg, -4deg);
+	   -moz-transform: skew(0deg, -4deg);
+	    -ms-transform: skew(0deg, -4deg);
+	     -o-transform: skew(0deg, -4deg);
+	        transform: skew(0deg, -4deg);
+}

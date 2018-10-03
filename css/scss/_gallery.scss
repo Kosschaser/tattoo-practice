@@ -1,0 +1,40 @@
+.gallery-wrap{
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.gallery-header{
+	margin-bottom: 35px;
+}
+.gallery-text{
+	font-size: 0.95em;
+	line-height: 22px;
+}
+#gallery{
+	margin-top: 60px;
+}
+.thumb-glass{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	font-size: 0em;
+	color: #fff;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.nGY2GThumbnail{
+	border-radius: 6px;
+}
+.nGY2GThumbnailSub:hover{
+	.thumb-glass{
+		opacity: 1;
+		font-size: 2.5em;
+	}
+}

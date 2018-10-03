@@ -1,0 +1,46 @@
+header{
+	position: relative;
+	z-index: 10;
+}
+.header{
+	max-width: 1200px; 
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.header-fb{
+	background-color: #fff;
+	padding: 7px 10px;
+	border-radius: 50%;
+}
+.header-font-size{
+	font-size: 1.2em;
+}
+.header-logo{
+	position: relative;
+	left: -40px;
+}
+.header-link{
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: color 0.3s;
+	&:hover{
+		color: #c7c6c6;
+	}
+}
+.header-menu{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 80%;
+}
+.header-skew{
+	position: relative;
+	margin-top: -125px;
+	height: 200px;
+	background-color: #191919;
+	-webkit-transform: skew(0deg, -4deg);
+	   -moz-transform: skew(0deg, -4deg);
+	    -ms-transform: skew(0deg, -4deg);
+	     -o-transform: skew(0deg, -4deg);
+	        transform: skew(0deg, -4deg);
+	z-index: 9;
+}

@@ -1,0 +1,28 @@
+.white-skew{
+	-webkit-transform: skew(0deg, 3deg);
+	   -moz-transform: skew(0deg, 3deg);
+	    -ms-transform: skew(0deg, 3deg);
+	     -o-transform: skew(0deg, 3deg); 
+	        transform: skew(0deg, 3deg);
+	        background-color: #fff;
+	        position: relative;
+	height: 95px;
+	z-index: 10;
+	top: -50px;
+}
+.footer-wrap{
+	position: relative;
+	top: 41px;
+	padding-bottom: 50px;
+}
+.footer-logo{
+	width: 175px;
+	height: auto;
+
+}
+.footer-text{
+	font-size: .9em;
+	flex-grow: 1;
+	margin: 0 90px;
+	line-height: 40px;
+}
