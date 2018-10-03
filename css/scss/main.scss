@@ -20,6 +20,13 @@
 	width: 1200px;
 	margin: 0 auto;
 }
+.link{
+	text-decoration: none;
+	color: #c0c0c0;
+	&:hover{
+		color: #fff;
+	}
+}
 .fb-body{
 	display: block;
 	position: relative;
