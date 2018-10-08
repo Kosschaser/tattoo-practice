@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<authors>
+	<author>
+		<name>Stevie Ipsum</name>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+	</author>
+	<author>
+		<name>Lorem Laborum</name>
+		<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum dictum magna in venenatis. Aliquam vestibulum turpis vel eros consequat placerat. Fusce ullamcorper turpis sapien, nec mattis mauris aliquet vitae. Sed tempor dolor magna, id consequat purus imperdiet vitae. Nullam arcu mi, tristique sed quam vitae, aliquet porttitor ligula. Sed ultricies mollis libero, vel porttitor eros ornare vel. Integer pellentesque, nisi euismod facilisis elementum, nisi leo aliquam elit, a pretium enim metus ac justo. Vivamus fringilla placerat magna, scelerisque elementum felis tempor eu. Phasellus faucibus, purus in interdum malesuada, ante nibh mattis ante, nec luctus lectus elit sit amet sapien. Morbi vulputate ex dolor, et aliquam enim pellentesque sit amet.</description>
+	</author>
+	<author>
+		<name>John Doe</name>
+		<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper sagittis ante, a aliquam neque lobortis eget. Duis eu risus nec risus consequat maximus ullamcorper pellentesque arcu. Nullam maximus a elit iaculis tincidunt. Vivamus congue rhoncus pulvinar. Nam mattis non tellus vitae facilisis. Quisque in commodo odio. Etiam maximus enim id nunc mattis fermentum.</description>
+	</author>
+	<author>
+		<name>Jane Doe</name>
+		<description>Lorem ipsum dolor sit amet, eu mea reque inimicus repudiare, adhuc voluptua ne mei. Modus ridens fierent sed ne, sit eu regione perfecto. At latine consectetuer mel, at affert verterem his. Unum soleat omnesque at duo, est eu hinc appellantur.</description>
+	</author>
+	<author>
+		<name>Some Person</name>
+		<description>Lorem ipsum dolor sit amet, tritani persius ne vim. An natum malorum sed. Delicata maiestatis ut qui. Ad his partem graecis lobortis, vel te prima putent.
+		Viderer recusabo quo ex. Ei movet conclusionemque sea, dicat tritani consequuntur sit ad, nam eu quem pertinacia. Utroque oportere efficiendi ei eam. Dolor postea ei pri, facer ornatus reprehendunt in sea, ne qui viris similique. Facer dicit quodsi ad nec, sed sint invidunt deseruisse ex.</description>
+	</author>
+	<author>
+		<name>Other Person</name>
+		<description>Lorem ipsum dolor sit amet, autem everti corrumpit at cum. Mea mollis mentitum maiestatis no, ad semper impedit incorrupte pri, te qui bonorum consequuntur. Soleat graeco honestatis et nec, ex wisi verear pri, impetus fuisset accusam ad nec. Affert labores id sea, inermis argumentum definitionem vel ea. Qui iudico feugait ei, admodum accusam persequeris sit te, pri eu veniam disputationi deterruisset. In veri facilis petentium sit.</description>
+	</author>
+</authors>
