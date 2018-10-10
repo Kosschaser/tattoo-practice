@@ -1,6 +1,4 @@
 .gallery-wrap{
-	max-width: 1200px;
-	margin: 0 auto;
 	position: relative;
 	margin-top: 120px;
 	margin-bottom: 120px;
@@ -36,5 +34,10 @@
 	.thumb-glass{
 		opacity: 1;
 		font-size: 2.5em;
+	}
+}
+@media (max-width: 768px) {
+	.gallery-header{
+		margin-top: 60px;
 	}
 }

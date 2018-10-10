@@ -19,8 +19,6 @@
 	        transform: skew(0deg, 4deg);
 }
 .greet-wrap{
-	max-width: 1200px;
-	margin: 0 auto;
 	position: relative;
 	top: 155px;
 }
@@ -43,4 +41,18 @@
 }
 .greet-margin--icon{
 	margin-right: 10px;
+}
+@media (max-width: 768px) {
+	.greet-skew{
+		height: 740px;
+	}
+	.greet-wrap{
+		top:90px;
+	}
+	.greet-item{
+		margin-bottom: 30px;
+	}
+	.greet-margin--left{
+		margin: 0;
+	}
 }

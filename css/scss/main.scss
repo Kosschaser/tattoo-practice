@@ -10,7 +10,7 @@
 @import 'footer';
 
 .img-responsive{
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 .block-header{
@@ -18,7 +18,7 @@
 	text-transform: uppercase;
 }
 .wrap{
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 .link{
@@ -107,4 +107,17 @@
 }
 .f-justify{
 	text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+	.wrap{
+		max-width: 1024px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.flex--col--sm{
+		flex-direction: column;
+	}
 }

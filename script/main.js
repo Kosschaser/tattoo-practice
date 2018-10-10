@@ -26,11 +26,25 @@ $(document).ready(function(){
 		swipe: false,
 		arrows: true,
 		prevArrow: '<button type="button" class="artists-prev"></button>',
-		nextArrow: '<button type="button" class="artists-next"></button>'
+		nextArrow: '<button type="button" class="artists-next"></button>',
+		responsive: [
+			{
+		      breakpoint: 1025,
+		      settings: {
+		        slidesToShow: 3
+		      }
+		    },
+			{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 2
+			}
+		}
+	]
 	})
 	$('#gallery').nanogallery2({
-		thumbnailHeight:  340,
-  		thumbnailWidth:   270,
+		thumbnailHeight:  '340 SM180',
+  		thumbnailWidth:   '270 SM140',
   		thumbnailBorderHorizontal: 0,
   		thumbnailBorderVertical: 0,
   		thumbnailGutterHeight: 50,
@@ -76,7 +90,6 @@ $(document).ready(function(){
 	$('.artists-item').on('click', function(){
 		let thumbName = getName($(this));
 		let thumbPic = getPic($(this));
-		console.log(thumbPic);
 		$.ajax({
 			url: "src/authors.xml",
 			contentType: 'xml',

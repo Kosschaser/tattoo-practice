@@ -3,8 +3,6 @@ header{
 	z-index: 10;
 }
 .header{
-	max-width: 1200px; 
-	margin: 0 auto;
 	padding-top: 80px;
 }
 .header-fb{
@@ -43,4 +41,9 @@ header{
 	     -o-transform: skew(0deg, -4deg);
 	        transform: skew(0deg, -4deg);
 	z-index: 9;
+}
+@media screen and (max-width: 768px) {
+	.header-menu{
+	font-size: 75%;
+}
 }

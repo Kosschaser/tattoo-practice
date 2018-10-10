@@ -1,13 +1,24 @@
-.contacts-wrap{
-
+.contacts-img{
+	width: 50%;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .contacts-body{
 	margin-top: 100px;
 	margin-left: 100px;
+	width: 50%;
 }
 .contacts-text{
 	font-size: .95em;
 }
 .contacts-text-low{
 	font-size: 1.2em;
+}
+
+@media screen and (max-width: 1024px) {
+	.contacts-body{
+	margin-top: 40px;
+	}
 }

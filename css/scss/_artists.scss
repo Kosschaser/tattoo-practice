@@ -7,6 +7,7 @@
 .artists-text{
 	margin-left: 100px;
 	line-height: initial;
+	width: 50%; 
 }
 .artists-header{
 	margin-top: 70px;
@@ -20,6 +21,9 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
+}
+.artists-picture{
+	width: 50%;
 }
 .artists-item{
 	transition: all 0.2s ease-in-out;
@@ -60,7 +64,7 @@
 }
 #ARTIST_PIC{
 	height: 600px;
-	width: 500px;
+	width: 100%;
 }
 .artists-social{
 	font-size: 2em;
@@ -103,5 +107,11 @@
 	left: 0;
 	&:before{
 		content: '\f359';
+	}
+}
+
+@media (max-width: 768px) {
+	.artists-text{
+		margin-left: 20px;
 	}
 }
