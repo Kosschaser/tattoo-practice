@@ -26,3 +26,8 @@
 	margin: 0 90px;
 	line-height: 40px;
 }
+@media (max-width: 425px){
+	.footer-text{
+		margin: 0;
+	}
+}

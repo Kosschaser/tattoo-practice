@@ -2,7 +2,9 @@
 	position: relative;
 	z-index: 8;
 	background-color: #191919;
-	height: 600px;
+	height: 100%;
+	padding-bottom: 100px;
+	padding-top: 100px;
 		-webkit-transform: skew(0deg, 4deg);
 	   -moz-transform: skew(0deg, 4deg);
 	    -ms-transform: skew(0deg, 4deg);
@@ -20,7 +22,6 @@
 .testimonials-wrap{
 	text-align: center;
 	position: relative;
-	top: 155px;
 }
 .testimonials-quote{
 	font-family: 'Srisakdi', cursive;
@@ -50,5 +51,14 @@
 		a{
 			color: #888888;
 		}
+	}
+}
+@media (max-width: 425px){
+	.testimonials-wrap{
+		font-size: 80%;
+	}
+	.testimonials-button{
+		right: 20px;
+		bottom: -50px;
 	}
 }

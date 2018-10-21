@@ -15,7 +15,6 @@ header{
 }
 .header-logo{
 	position: relative;
-	left: -40px;
 }
 .header-link{
 	text-transform: uppercase;
@@ -34,7 +33,7 @@ header{
 	position: relative;
 	margin-top: -125px;
 	height: 200px;
-	background-color: #191919;
+	background-color: #191919; 
 	-webkit-transform: skew(0deg, -4deg);
 	   -moz-transform: skew(0deg, -4deg);
 	    -ms-transform: skew(0deg, -4deg);
@@ -45,5 +44,17 @@ header{
 @media screen and (max-width: 768px) {
 	.header-menu{
 	font-size: 75%;
+	}
 }
+@media (max-width: 425px) {
+	.header-logo{
+		margin: 0 auto;
+	}
+	.header-menu{
+		font-size: 100%;
+		text-align: center;
+		div{
+			padding-bottom: 1em;
+		}
+	}
 }
