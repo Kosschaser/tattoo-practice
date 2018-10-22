@@ -76,6 +76,17 @@ $(document).ready(function(){
 		$(this).toggleClass('blogs-content--on');
 	})
 
+	 $('.header-link[href^="#"]').on('click',function (e) {
+		e.preventDefault();
+	    let target = this.hash;
+	    $target = $(target);
+	    $('html, body').stop().animate({
+	            'scrollTop':  $target.offset().top
+	        }, 500, 'swing', function () {
+	            window.location.hash = target;
+	        });
+	    });
+
 	function getName(picture){
 		return $(picture).find('.artists-name').text();	
 	}
