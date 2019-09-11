@@ -79,10 +79,16 @@
 .divider{
 	margin: auto;
 }
+@media (max-width: 768px){
+	.blogs-mask{
+		font-size: 85%;
+	}
+}
 
 @media (max-width: 425px){
 	.blogs-body{
 		width: 100%;
 		margin-bottom: 1em;
 	}
+
 }
